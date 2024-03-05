@@ -1,31 +1,3 @@
-var size = 0;
-var placement = 'point';
-
-var style_Public_Woodland_Layer_7 = function(feature, resolution){
-    var context = {
-        feature: feature,
-        variables: {}
-    };
-    var value = ""
-    var labelText = "";
-    size = 0;
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
-    var textAlign = "left";
-    var offsetX = 8;
-    var offsetY = 3;
-    var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
-    }
-    var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(2,74,66,1.0)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-
-    return style;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3bb5ce6c72a803a197d0aa608774715128b0686ab32de1eba21c5c3229d8ee8
+size 960
